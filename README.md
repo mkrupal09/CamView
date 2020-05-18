@@ -30,7 +30,7 @@ implementation 'com.hb.camview:camview:1.0'
   //Build camera config object by providing customization
   val cameraConfig = CameraConfig.Builder()
                     .setCameraFacing(CameraFacing.BACK_FRONT) // BACK,FRONT,BACK_FRONT
-                    .setCameraFlash(CameraFlash.ALL) // ALL,AUTO,ON,OFF
+                    .setCameraFlash(CameraFlash.MANUAL) // MANUAL,AUTO,ON,OFF
                     .setCameraType(CameraType.PHOTO) // PHOTO,VIDEO,PHOTO_VIDEO
                     .setVideoLength(45) // Provide length of video
                     .setShowGrid(true) // To show preview grid or not
