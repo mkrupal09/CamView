@@ -15,7 +15,7 @@ Grab via Maven:
 ```xml
 <dependency>
   <groupId>com.hb.camview</groupId>
-  <artifactId>pinview</artifactId>
+  <artifactId>camview</artifactId>
   <version>1.0</version>
   <type>pom</type>
 </dependency>
