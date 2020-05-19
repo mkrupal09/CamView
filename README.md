@@ -35,6 +35,7 @@ implementation 'com.hb.camview:camview:1.0'
                     .setVideoLength(45) // Provide length of video
                     .setShowGrid(true) // To show preview grid or not
                     .setPlaySounds(false) // To enable/disable sounds
+                    .setEnableManualZoom(true) // To enable/disable pinch zoom
                     .build()
                     
 startActivityForResult(CameraActivity.createIntent(this, cameraConfig,
